@@ -1,5 +1,5 @@
 # MobileBrowserRemote
-Express server to execute key presses on another computer.
+Express server to execute key presses from another computer or mobile device.
 
 # How to add commands
 1. Make a python script in /python/. 
