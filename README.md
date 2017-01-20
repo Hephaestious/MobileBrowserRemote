@@ -15,3 +15,5 @@ Express server to execute key presses on another computer.
 5. Run index.js
 6. Go to (localip or localhost):8080
 
+Notes:
+when you do keystring() any special characters will cause errors and look weird, so what you want to do is find the key code (xev in ubuntu) then add it to the specials dictionary in keys.py like so: 'specialcharacter':keypresses, ex: '!': shift(key('exclam'))
