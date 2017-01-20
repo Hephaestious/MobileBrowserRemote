@@ -1,0 +1,13 @@
+{
+  "name": "remotekeyboard",
+  "version": "1.0.0",
+  "description": "Software to allow remote control of keyboard",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0"
+  }
+}
