@@ -17,3 +17,4 @@ Express server to execute key presses on another computer.
 
 Notes:
 when you do keystring() any special characters will cause errors and look weird, so what you want to do is find the key code (xev in ubuntu) then add it to the specials dictionary in keys.py like so: 'specialcharacter':keypresses, ex: '!': shift(key('exclam'))
+If you do add special characters please push your changes
